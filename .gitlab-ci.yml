@@ -1,0 +1,20 @@
+#>_<手懒，本来计划travis.ci和github集成自己写脚本clone本库deploy自己放github 
+#pages的，但是后来觉得我这个。。不全自动也能接受。这个配置是neo喵写的哦
+
+image: node:6.6.0
+pages:
+  cache:
+    paths:
+    - node_modules/
+
+  script:
+  - npm install
+  - npm install hexo-cli -g
+  - npm install hexo --save
+  - hexo clean
+  - hexo deploy
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
