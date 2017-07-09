@@ -33,7 +33,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Salty life :frog:"
+    slogan: "Salted fish,Salty life :frog:."
     theme_color: "#0097A7"
     theme_sub_color: "#009F8F"
     hyperlink_color: "#00F28A"
