@@ -33,19 +33,19 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "Hi, nice to meet you"
+    slogan: "Salty life :frog:"
     theme_color: "#0097A7"
-    theme_sub_color: "#00838F"
-    hyperlink_color: "#00838F"
+    theme_sub_color: "#009F8F"
+    hyperlink_color: "#00F28A"
     button_color: "#757575"
-    android_chrome_color: "#0097A7"
+    android_chrome_color: "#00D3A7"
     nprogress_color: "#29d"
     nprogress_buffer: "800"
 
 # JS Effect Switches
 js_effect:
     fade: true
-    smoothscroll: false
+    smoothscroll: true
 
 # Reading experience
 reading:
@@ -65,7 +65,7 @@ background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
     bing:
-        enable: false
+        enable: true
         parameter:
 
 # Images Settings
@@ -120,28 +120,28 @@ toc:
 
 # SNS Menu
 sns:
-    email: youremail@email.com
-    facebook: "https://www.facebook.com/facebook"
-    twitter: "https://twitter.com/twitter"
-    googleplus: "https://www.google.com/"
+    email: fedora-opensuse@outlook.com
+    facebook:
+    twitter:
+    googleplus:
     weibo:
     instagram:
     tumblr:
-    github:
+    github: pigfromchina
     linkedin:
-    zhihu:
-    bilibili:
-    telegram:
+    zhihu: duangsuse
+    bilibili: suse
+    telegram: duangsuse
 
 # SNS Share Switch
 sns_share:
-    twitter: true
-    facebook: true
-    googleplus: true
-    weibo: true
+    twitter: false
+    facebook: false
+    googleplus: false
+    weibo: false
     linkedin: false
     qq: false
-    telegram: false
+    telegram: true
 
 # Sidebar Customize
 sidebar:
