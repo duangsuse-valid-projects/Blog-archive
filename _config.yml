@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "susey park"
-subtitle: "为干净,自由,良心的生活创造条件"
-description: "duangsuse的博客"
-author: "duang suse"
-language: zh_CN
-timezone: Asia/ShangHai
+title: (duangsuse :frog:)
+subtitle: duangsuse's blog
+description: this is duangsuse>_<
+author: Duang Suse
+language: zh-CN
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :foo.md # File name of new posts
+new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -68,8 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-#  repo: https://gitlab.com/duangsuse/blog.git
-#  branch: [master]
-#  message: [message]
-
+  type:
