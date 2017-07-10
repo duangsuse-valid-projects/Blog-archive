@@ -28,8 +28,9 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Paradox
+#scheme: Paradox
 #scheme: Isolation
+scheme: Nexus
 
 # UI & UX: slogan, color, effect
 uiux:
@@ -63,7 +64,7 @@ thumbnail:
 #         type available value: A (animal), C (culture), N (nature), S (space), T (travel)
 background:
     purecolor: "#F5F5F5"
-    #bgimg: "/blog/img/bg.png"
+    bgimg: "/blog/img/bg.png"
     bing:
         enable: true
         parameter:
@@ -127,17 +128,17 @@ sns:
     weibo:
     instagram:
     tumblr:
-    github: pigfromchina
+    github: /links/github.html
     linkedin:
-    zhihu: duangsuse
-    bilibili: suse
-    telegram: duangsuse
+    zhihu: /links/zhihu.html
+    bilibili: /links/bilibili.html
+    telegram: /links/tg.html
 
 # SNS Share Switch
 sns_share:
-    twitter: false
+    twitter: true
     facebook: false
-    googleplus: false
+    googleplus: true
     weibo: false
     linkedin: false
     qq: false
@@ -162,10 +163,10 @@ sidebar:
         icon: chrome_reader_mode
         divider: false
     pages:
-        #About:
-            #link: "/about"
-            #icon: person
-            #divider: false
+        About:
+            link: "/blog/about"
+            icon: person
+            divider: false
     article_num:
         use: false
         divider: false
@@ -215,9 +216,9 @@ analytics:
 
 # Leancloud Views
 leancloud:
-    enable: false
-    app_id: #你的 app_id
-    app_key: #你的 app_key
+    enable: true
+    app_id: OwLWNMNwVnKzDtAJvio9wIBP-gzGzoHsz #你的 app_id
+    app_key: rG5VHcNz4557GF2uuSeUEnyD #你的 app_key
     av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
 
 # Busuanzi 不蒜子 Views
