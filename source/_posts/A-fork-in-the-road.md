@@ -5,7 +5,7 @@ date: 2017-07-09 21:03:10
 categories: 哲&学
 tags: 生活
 ---
-
+too naive to live>_<
 ### 学渣duangsuse
 中考前一段时间,由于 过分自信~~(其实是不想学)~~ duangsuse选择了保持日常打电脑...
 而且蛮以为自己不努力就可以考上`36中`
