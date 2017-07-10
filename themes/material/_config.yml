@@ -28,9 +28,9 @@ url:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Paradox
+scheme: Paradox
 #scheme: Isolation
-scheme: Nexus
+#scheme: Nexus
 
 # UI & UX: slogan, color, effect
 uiux:
@@ -128,11 +128,11 @@ sns:
     weibo:
     instagram:
     tumblr:
-    github: /links/github.html
+    github: /blog/links/github.html
     linkedin:
-    zhihu: /links/zhihu.html
-    bilibili: /links/bilibili.html
-    telegram: /links/tg.html
+    zhihu: /blog/links/zhihu.html
+    bilibili: /blog/links/bilibili.html
+    telegram: /blog/links/tg.html
 
 # SNS Share Switch
 sns_share:
@@ -164,7 +164,7 @@ sidebar:
         divider: false
     pages:
         About:
-            link: "/blog/about"
+            link: "/blog/links/about.html"
             icon: person
             divider: false
     article_num:
