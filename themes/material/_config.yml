@@ -211,7 +211,7 @@ search:
 # Available value:
 #     baidu | google | cnzz
 analytics:
-    use:
+    use: piwik-stupid
     site_id:
 
 # Leancloud Views
