@@ -1,6 +1,7 @@
 ---
 title: '好耶~Rust,PHP,Lua,Python,C++,Java性能大比拼'
 date: 2017-07-10 14:23:46
+categories: 程序设计
 tags: 程序设计 评测 跑分 程序设计语言 性能
 ---
 duangsuse突然就想做一个这种评测>_<今天总算有时间了
