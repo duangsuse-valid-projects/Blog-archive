@@ -99,7 +99,7 @@ PAVP也被另外一个ME应用程序用来将用与验证的PIN面板__直接绘
 ME固件7.0,`处于每一个英特尔酷睿二世代i3/i5/i7(Sandy Bridge)`CPU所匹配的PCH上,已经以一个叫做"*Intel Insider*"的,差不多的*DRM*应用程序替代了*PAVP*
 >Like the AMT application, these DRM applications, which in themselves are defective by design, demonstrate the omnipotent capabilities of the ME: this hardware and its proprietary firmware can access and control everything that is in RAM and even everything that is shown on the screen.
 
-像AMT应用程序一样,这些[DRM](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%89%88%E6%9D%83%E7%AE%A1%E7%90%86#.E6.95.B0.E5.AD.97.E7.89.88.E6.9D.83.E7.AE.A1.E7.90.86.E7.9A.84.E5.8F.8D.E5.AF.B9.E8.80.85)一样程序,自己在[设计上就有缺陷](https://defectivebydesign.org/), 展示了它可怕的全能: 这种硬件和其私有固件可以访问和控制计算机RAM中的,甚至是显示的所有东西.
+像AMT应用程序一样,这些[DRM](https://zh.wikipedia.org/wiki/%E6%95%B0%E5%AD%97%E7%89%88%E6%9D%83%E7%AE%A1%E7%90%86#.E6.95.B0.E5.AD.97.E7.89.88.E6.9D.83.E7.AE.A1.E7.90.86.E7.9A.84.E5.8F.8D.E5.AF.B9.E8.80.85)应用程序,自己在[设计上就有缺陷](https://defectivebydesign.org/), 展示了它可怕的全能: 这种硬件和其私有固件可以访问和控制计算机RAM中的,甚至是显示的所有东西.
 >The Intel Management Engine with its proprietary firmware has complete access to and control over the PC: it can power on or shut down the PC, read all open files, examine all running applications, track all keys pressed and mouse movements, and even capture or display images on the screen.
 
 英特尔管理引擎和它的私有固件拥有PC上完全的访问权和控制权:
@@ -141,7 +141,7 @@ __它对自由,安全和隐私有很大的威胁,这不能被无视.__
 并且,即使他们开发一个全新的,__不带第三方私有代码的ME固件并且将其开源,ME的引导ROM还是会拒绝所有非英特尔签名的,修改了的固件__.
 >Thus, the ME firmware is both hopelessly proprietary and “tivoized”.
 
-因此,ME固件是__没有任何改变希望的私有软件__,而且还__被"Tivo"化了__
+因此,ME固件是__没有任何改变希望的私有软件__,而且还__被__[Tivo](http://www.gnu.org/proprietary/proprietary-tyrants.html)__化了__
 >In summary, the Intel Management Engine and its applications are a backdoor with total access to and control over the rest of the PC. 
 
 总的来说,英特尔管理引擎和它的应用程序,就是__对PC其它部分拥有完全访问和控制权限的后门__
@@ -161,4 +161,7 @@ __它对自由,安全和隐私有很大的威胁,这不能被无视.__
 
 你也可以看看[努力禁用ME](https://www.coreboot.org/pipermail/coreboot/2016-November/082331.html) -看完整篇文章
 
-以上内容均是我手动逐句翻译的~~其中有一个句子是去让百度翻译了修改的,你们猜是哪句?~~ 如果你想喷我翻译的不好的话,我完全可以说:"你初中毕业了给我翻译一个啊",你们又不高兴,说我年少轻狂,naive,那我该怎么办?欢迎指正,不过请保持正常交流,不要成天搞事情,要不然[出门右转](http://translate.baidu.com/#auto/zh/),要不然让你们瞎下眼![看看,翻译得...](http://cdn.rkidc.loveml.com/uploads/1707122339D6947F45F.png),你们识得不识得啊?#(滑稽)
+以上内容均是我手动逐句翻译的~~其中有一个句子是去让百度翻译了修改的,你们猜是哪句?~~ 如果你想喷我翻译的不好的话,我完全可以说:"你初中毕业了给我翻译一个啊",你们又不高兴,说我年少轻狂,naive,那我该怎么办?欢迎指正,不过请保持正常交流,不要成天搞事情,要不然[出门右转](http://translate.baidu.com/#auto/zh/),让你们瞎下眼![看看,翻译得...](http://cdn.rkidc.loveml.com/uploads/1707122339D6947F45F.png),你们识得不识得啊?#(滑稽)
+
+Intel的行为和M$有着惊人的相似:
+![Windos10](http://static.fsf.org/nosvn/windows/win_infographic_final.png)
