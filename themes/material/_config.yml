@@ -18,7 +18,7 @@ head:
 
 # Jump Links Settings
 url:
-    rss:
+    rss: "https://gitlab.com/duangsuse/blog/raw/master/feed.xml"
     daily_pic: "#"
     logo: "#"
 
@@ -66,7 +66,7 @@ background:
     purecolor: "#F5F5F5"
     bgimg: "/blog/img/bg.png"
     bing:
-        enable: false
+        enable: true
         parameter:
 
 # Images Settings

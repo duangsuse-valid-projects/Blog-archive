@@ -8,7 +8,7 @@ subtitle: duangsuse's blog
 description: this is duangsuse>_<
 author: Duang Suse
 language: zh-CN
-timezone:
+timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -35,13 +35,13 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 future: true
 highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace:
+  tab_replace: 4
 
 # Category & Tag
 default_category: uncategorized
