@@ -2,7 +2,7 @@
 title: 一根网线ssh刚安装完的开发板
 thumbnail: 'https://duangsuse.gitlab.io/blog/img/thumb/opi.png'
 date: 2017-08-15 01:59:02
-categories:
+categories: 系统管理
 tags: DHCP Web ip 开发板 
 ---
 今天将PC2重新安了Ubuntu Server.于是在没有HDMI输出对象和键盘的情况下愿把PC降格为路由器连上板子.
