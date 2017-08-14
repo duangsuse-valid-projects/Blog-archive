@@ -66,7 +66,7 @@ background:
     purecolor: "#F5F5F5"
     bgimg: "/blog/img/bg.png"
     bing:
-        enable: true
+        enable: false
         parameter:
 
 # Images Settings
